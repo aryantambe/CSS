@@ -1,0 +1,61 @@
+h1{
+    color: blueviolet;  
+}
+p{
+    color: #00ffff; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+button{
+    color:black;
+    background-color: pink;
+}
+body{
+    background-color: black;
+}
+/*
+*{
+     This is a universal selector
+}
+ */
+ #headingTwo{
+    color:aquamarine
+ }
+ .myclass{
+    color:crimson
+ }
+ #center{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: grey wavy overline;
+ }
+ #right{
+    text-align: end;
+    text-decoration:  underline;
+    font-style: ;
+ }
+ a{
+    text-decoration: line-through;
+ }
+ #H1{
+    font-weight: normal;
+    
+ }
+ #H2{
+    font-weight: 900;
+ }
+ #H3{
+    font-weight: bolder;
+ }
+ #H4{
+    font-weight: lighter;
+ }
+ #P1{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:25px ;
+    text-transform: uppercase;
+ }
+ #P2{
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: capitalize;
+ }
