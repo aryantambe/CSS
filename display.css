@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px; 
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.5);
+
+
+button{
+    display: block;
+    display:inline;
+}
+#box3{
+    display: none;
+}
+#box2{
+    visibility: hidden;
+}
