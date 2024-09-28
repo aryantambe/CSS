@@ -1,15 +1,40 @@
-#box1{
+body{
+    text-align: center;
+}
+div{
     height: 100px;
     width: 100px;
-    background-color: aquamarine;
-    font-size: 10px;
-    
+    display: inline-block;
+    border: 2px solid black;
+}
+#Container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+    margin: auto;
+}
+#box1{
+    background-color:aqua ;
 }
 #box2{
-    height: 50px;
-    width: 30%;
-    background-color:chocolate;
-    margin-left: 10%;
-    font-size: 2em;
-
+    background-color:pink ;
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+#box3{
+    background-color:darkkhaki ;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}
+@media (min-width: 600px) and (max-width:800px) {
+    div{
+        background-color: red;
+    }
 }
