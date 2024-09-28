@@ -1,0 +1,20 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:20px solid #F7FFF7;
+    border-top: 20px solid #4ECDC4;
+    margin: auto;
+    animation: spin 3s ease-in-out 0s infinite normal;
+    
+    
+}
+ body{
+            background-color: black;
+            text-align: center;
+ }
+ @keyframes spin {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+    
+ }
