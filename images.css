@@ -1,0 +1,32 @@
+div{
+    background-color: aqua;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 25px;
+    border-radius: 15px;
+}
+/*
+Visit unsplash.com for some images */
+
+#box1{
+    background-image: url("cat1.jpg");
+    background-size: cover;
+}
+body{
+    background-image: url("cat5.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("cat2.jpg");
+    background-size: cover;
+}
+#box3{
+    background-image: url("cat3.jpg");
+    background-size: cover;
+}
+#box4{
+    background-image: url("cat4.jpg");
+    background-size: cover;
+}
